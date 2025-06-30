@@ -1,0 +1,62 @@
+// bootstrap
+@import '../bootstrap-5.3.7/scss/bootstrap.scss';
+
+// fuentes
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+// variables institucionales
+
+$color-institucional-base: #324160;
+$color-institucional-secundario: #9fbeea;
+$color-institucional-terciario: #213050;
+$fuente-base: "Open Sans", sans-serif;
+
+// generales
+
+body {
+    font-family: $fuente-base;
+}
+
+.text-primary {
+    color: $color-institucional-base !important;
+}
+
+.bg-dark {
+    background-color: $color-institucional-terciario;
+}
+
+.logo-fundacion {
+    img {
+        width: 233px;
+    }
+}
+
+.social-links, .btn.btn-link {
+    color: $color-institucional-secundario;
+    text-decoration: none;
+    svg {
+        width: 20px;
+        height: auto;
+        fill: $color-institucional-secundario;
+        margin-right: 10px;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+header, footer {
+    background-color: $color-institucional-base;
+    color: $white;
+    a {
+        color: $color-institucional-secundario;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .sticky-top {
+        .row {
+            width: 100%;
+        }
+    }
+}
