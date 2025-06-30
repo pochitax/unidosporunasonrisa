@@ -30,14 +30,6 @@ body {
         width: 233px;
     }
 }
-@media (max-width: 992px) {
-    .logo-fundacion {
-        img {
-            width: 80%;
-        }
-    }
-}
-
 .social-links, .btn.btn-link {
     color: $color-institucional-secundario;
     text-decoration: none;
@@ -49,6 +41,20 @@ body {
     }
     &:hover {
         text-decoration: underline;
+    }
+}
+@media (max-width: 992px) {
+    .logo-fundacion {
+        img {
+            width: 80%;
+        }
+    }
+}
+@media (max-width: 480px) {
+    .social-links, .btn.btn-link {
+        svg {
+            margin-right: 0;
+        }
     }
 }
 
