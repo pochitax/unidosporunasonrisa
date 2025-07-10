@@ -1,3 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2008.105" height="426.07" viewBox="0 0 2008.105 426.07">
-  <path id="Trazado_50" data-name="Trazado 50" d="M-55.409,139.115s163.654,217.309,470.34,254.936,453.57-242.188,774.7-173.112,502.146,44.949,649.748-23.633S1948.052-28.52,1948.052-28.52H-55.409Z" transform="translate(55.409 28.52)" fill="#03397f"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 2008.1 356.18">
+  <!-- Generator: Adobe Illustrator 29.6.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 9)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #03397f;
+      }
+    </style>
+  </defs>
+  <path id="Trazado_50" class="st0" d="M0,97.75s163.65,217.31,470.34,254.94c306.69,37.63,453.57-242.19,774.7-173.11,321.13,69.08,502.15,44.95,649.75-23.63C2016.33,90.99,2008.1.11,2008.1.11H0v97.64Z"/>
 </svg>
