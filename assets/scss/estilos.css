@@ -4,7 +4,7 @@
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11976,11 +11976,11 @@ textarea.form-control-lg {
   }
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .text-primary {
-  color: #324160 !important;
+  color: #03397F !important;
 }
 
 .bg-dark {
@@ -12016,7 +12016,7 @@ body {
   }
 }
 header, footer {
-  background-color: #324160;
+  background-color: #03397F;
   color: #fff;
 }
 header a, footer a {
@@ -12027,4 +12027,8 @@ header a:hover, footer a:hover {
 }
 header .sticky-top .row, footer .sticky-top .row {
   width: 100%;
+}
+
+main {
+  color: #03397F;
 }/*# sourceMappingURL=estilos.css.map */
