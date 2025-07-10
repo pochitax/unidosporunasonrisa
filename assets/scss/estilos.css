@@ -12016,7 +12016,6 @@ body {
   }
 }
 header, footer {
-  background-color: #03397F;
   color: #fff;
 }
 header a, footer a {
@@ -12031,4 +12030,23 @@ header .sticky-top .row, footer .sticky-top .row {
 
 main {
   color: #03397F;
+}
+
+footer {
+  background-color: #03397F;
+}
+
+.titulo-colecta {
+  font-size: 96px;
+  line-height: 85px;
+  border-right: 3px solid #fff;
+  padding-right: 2rem;
+  margin-right: 2rem;
+}
+
+.fondo-azul-superior {
+  background-image: url("../img/trazado-azul.svg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 2000px;
 }/*# sourceMappingURL=estilos.css.map */
