@@ -12076,4 +12076,9 @@ footer {
   left: 0;
   top: 10px;
   background-size: contain;
+}
+
+.bg-fucsia {
+  color: #fff;
+  background-color: #DA0080;
 }/*# sourceMappingURL=estilos.css.map */
