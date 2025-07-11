@@ -12030,6 +12030,7 @@ header .sticky-top .row, footer .sticky-top .row {
 
 main {
   color: #03397F;
+  font-size: 20px;
 }
 
 footer {
@@ -12055,4 +12056,24 @@ footer {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 2000px;
+}
+
+.listado-fundacion {
+  padding: 0;
+}
+.listado-fundacion li {
+  list-style-type: none;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-left: 40px;
+}
+.listado-fundacion li::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/punto-lista.svg");
+  height: 20px;
+  width: 20px;
+  left: 0;
+  top: 10px;
+  background-size: contain;
 }/*# sourceMappingURL=estilos.css.map */
