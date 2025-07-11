@@ -12060,7 +12060,7 @@ footer {
 
 .listado-fundacion {
   padding: 0;
-  max-width: 780px;
+  max-width: 750px;
 }
 .listado-fundacion li {
   list-style-type: none;
@@ -12119,7 +12119,7 @@ footer {
   width: 217px;
   letter-spacing: 0.25rem;
   right: 200px;
-  top: 0;
+  top: 30px;
 }
 .sonrisa::before {
   content: "";
