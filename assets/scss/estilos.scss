@@ -192,3 +192,28 @@ footer {
     bottom: 250px;
     right: -30px;
 }
+.bg-celeste{
+    background-image: url('../img/trazado-celeste.svg');
+    background-size: 1159px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.bg-rosado {
+    background-image: url('../img/trazado-fucsia.svg');
+    background-size: 1537px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: -50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
