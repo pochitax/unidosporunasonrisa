@@ -151,8 +151,44 @@ footer {
     width: 217px;
     letter-spacing: 0.25rem;
     right: 200px;
-    top: 0;
+    top: -30px;
+    &::before {
+        content: '';
+        position: absolute;
+        height: 23px;
+        width: 209px;
+        background-image: url('../img/subrayado.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: -40px;
+    }
 }
 .dona-span {
     font-size: 17px;
+}
+.musica, .flor-sonrisa, .llave-de-sol {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.musica {
+    width: 68px;
+    height: 91px;
+    background-image: url('../img/nota-fucsia.svg');
+    top: 150px;
+    right: 0;
+}
+.flor-sonrisa {
+    width: 98px;
+    height: 97px;
+    background-image: url('../img/flor-sonrisa.svg');
+    top: 170px;
+    left: 0;
+}
+.llave-de-sol {
+    width: 45px;
+    height: 119px;
+    background-image: url('../img/nota-musical.svg');
+    bottom: 250px;
+    right: -30px;
 }
