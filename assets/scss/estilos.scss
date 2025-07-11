@@ -94,7 +94,7 @@ footer {
 }
 .fondo-azul-superior {
     background-image: url('../img/trazado-azul.svg');
-    background-position: top center;
+    background-position: top left;
     background-repeat: no-repeat;
     background-size: 2000px;
 }
@@ -133,4 +133,26 @@ footer {
     &:hover {
         background-color: $color-institucional-base;
     }
+}
+.alvaro-josefa {
+    width: 805px;
+    height: 898px;
+    position: relative;
+}
+.josefa {
+    position: absolute;
+    right: 100px;
+    top: 285px;
+}
+.sonrisa {
+    position: absolute;
+    color: $white;
+    font-size: 27px;
+    width: 217px;
+    letter-spacing: 0.25rem;
+    right: 200px;
+    top: 0;
+}
+.dona-span {
+    font-size: 17px;
 }
