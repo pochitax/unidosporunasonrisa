@@ -100,6 +100,7 @@ footer {
 }
 .listado-fundacion {
     padding: 0;
+    max-width: 780px;
     li {
         list-style-type: none;
         margin-bottom: 1.5rem;
@@ -120,6 +121,8 @@ footer {
 .bg-fucsia {
     color: $white;
     background-color: #DA0080;
+    position: relative;
+    z-index: -2;
 }
 .btn-donacion {
     text-transform: uppercase;
@@ -151,7 +154,7 @@ footer {
     width: 217px;
     letter-spacing: 0.25rem;
     right: 200px;
-    top: -30px;
+    top: 0;
     &::before {
         content: '';
         position: absolute;
@@ -194,11 +197,11 @@ footer {
 }
 .bg-celeste{
     background-image: url('../img/trazado-celeste.svg');
-    background-size: 1159px;
+    background-size: 1280px;
     background-position: bottom right;
     background-repeat: no-repeat;
     position: absolute;
-    right: 0;
+    right: -100px;
     bottom: 0;
     top: 0;
     left: 0;
@@ -216,4 +219,8 @@ footer {
     top: 0;
     left: 0;
     z-index: -2;
+}
+.donaciones {
+    margin-top: 5rem;
+    color: $white;
 }
