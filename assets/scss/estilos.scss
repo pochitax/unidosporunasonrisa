@@ -31,13 +31,13 @@ body {
     }
 }
 .social-links, .btn.btn-link {
-    color: $color-institucional-secundario;
+    color: $white;
     text-decoration: none;
     svg {
-        width: 15px;
+        width: 38px;
         height: auto;
-        fill: $color-institucional-secundario;
-        margin-right: 10px;
+        fill: $white;
+        margin-right: 1rem;
     }
     &:hover {
         text-decoration: underline;
@@ -78,6 +78,11 @@ main {
 }
 footer {
     background-color: $color-institucional-base;
+    height: 85px;
+}
+.bajada-footer {
+    font-size: 21px;
+    letter-spacing: .25rem;
 }
 .titulo-colecta {
     font-size: 96px;

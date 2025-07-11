@@ -11992,14 +11992,14 @@ body {
 }
 
 .social-links, .btn.btn-link {
-  color: #9fbeea;
+  color: #fff;
   text-decoration: none;
 }
 .social-links svg, .btn.btn-link svg {
-  width: 15px;
+  width: 38px;
   height: auto;
-  fill: #9fbeea;
-  margin-right: 10px;
+  fill: #fff;
+  margin-right: 1rem;
 }
 .social-links:hover, .btn.btn-link:hover {
   text-decoration: underline;
@@ -12034,6 +12034,12 @@ main {
 
 footer {
   background-color: #03397F;
+  height: 85px;
+}
+
+.bajada-footer {
+  font-size: 21px;
+  letter-spacing: 0.25rem;
 }
 
 .titulo-colecta {
