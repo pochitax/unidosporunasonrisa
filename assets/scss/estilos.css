@@ -12136,7 +12136,7 @@ footer {
   font-size: 17px;
 }
 
-.musica, .flor-sonrisa, .llave-de-sol {
+.musica, .flor-sonrisa, .llave-de-sol, .abeja, .flor-fucsia {
   position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
@@ -12163,6 +12163,22 @@ footer {
   height: 119px;
   background-image: url("../img/nota-musical.svg");
   bottom: 250px;
+  right: -30px;
+}
+
+.abeja {
+  width: 193px;
+  height: 76px;
+  background-image: url("../img/abeja.svg");
+  top: 100px;
+  right: -30px;
+}
+
+.flor-fucsia {
+  width: 93px;
+  height: 164px;
+  background-image: url("../img/flor.svg");
+  bottom: 220px;
   right: -30px;
 }
 
