@@ -12091,4 +12091,8 @@ footer {
   background-color: #FFE033;
   border-color: transparent;
   box-shadow: 3px 3px 9px #08555C;
+  cursor: url("../img/cursor.svg"), auto;
+}
+.btn-donacion:hover {
+  background-color: #03397F;
 }/*# sourceMappingURL=estilos.css.map */
