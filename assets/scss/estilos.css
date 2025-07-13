@@ -12360,9 +12360,17 @@ footer {
   .dona-span {
     font-size: 1.15rem;
   }
+  .bg-rosado {
+    background-size: 1200px;
+    background-position-x: center;
+    right: 0;
+  }
 }
 @media (max-width: 900px) {
   .flor-fucsia, .abeja {
     display: none;
+  }
+  .logo-fundacion img {
+    width: 250px;
   }
 }/*# sourceMappingURL=estilos.css.map */
