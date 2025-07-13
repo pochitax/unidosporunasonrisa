@@ -12005,16 +12005,6 @@ body {
   text-decoration: underline;
 }
 
-@media (max-width: 992px) {
-  .logo-fundacion img {
-    width: 80%;
-  }
-}
-@media (max-width: 480px) {
-  .social-links svg, .btn.btn-link svg {
-    margin-right: 0;
-  }
-}
 header, footer {
   color: #fff;
 }
@@ -12262,6 +12252,35 @@ footer {
   }
 }
 @media screen and (min-width: 1681px) {
+  .esconder-grande {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .logo-fundacion img {
+    width: 80%;
+  }
+}
+@media (max-width: 480px) {
+  .social-links svg, .btn.btn-link svg {
+    margin-right: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .titulo-colecta {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .fondo-azul-superior {
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+  }
+  .donaciones {
+    background-color: #019CDE;
+    margin-top: 0;
+  }
   .esconder-grande {
     display: none;
   }
