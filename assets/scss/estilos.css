@@ -12053,7 +12053,7 @@ footer {
 
 .fondo-azul-superior {
   background-image: url("../img/trazado-azul.svg");
-  background-position: top left;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: 2000px;
 }
@@ -12212,4 +12212,57 @@ footer {
 .donaciones {
   margin-top: 5rem;
   color: #fff;
+}
+
+@media (min-width: 1200px) and (max-width: 1680px) {
+  .dona-span {
+    font-size: 16px;
+  }
+  .alvaro-josefa {
+    position: absolute;
+    right: 0;
+  }
+  h3, .h3 {
+    font-size: 1.5rem;
+  }
+  h4, .h4 {
+    font-size: 1.35rem;
+  }
+  main {
+    font-size: 18px;
+  }
+  .fondo-azul-superior {
+    background-size: 1770px;
+  }
+  .sonrisa {
+    right: 25%;
+  }
+  .abeja {
+    display: none;
+  }
+  .btn-donacion {
+    font-size: 30px;
+  }
+  .listado-fundacion {
+    margin-top: 0 !important;
+  }
+  .listado-fundacion.px-5 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .bg-rosado {
+    left: -250px;
+  }
+  .bg-celeste {
+    right: -300px;
+    bottom: -30px;
+  }
+  .flor-fucsia {
+    bottom: 150px;
+  }
+}
+@media screen and (min-width: 1681px) {
+  .esconder-grande {
+    display: none;
+  }
 }/*# sourceMappingURL=estilos.css.map */
