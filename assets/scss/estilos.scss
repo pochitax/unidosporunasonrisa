@@ -296,11 +296,27 @@ footer {
         border-right: none;
         padding-right: 0;
         margin-right: 0;
+        position: relative;
+        &::before {
+            content: '';
+            width: 85px;
+            height: 3px;
+            background-color: $white;
+            position: absolute;
+            top: -30px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+    }
+    .listado-fundacion {
+        max-width: 1000px;
     }
     .fondo-azul-superior {
-        background-position: top left; //top left;
+       /*  background-position: top left; //top left;
         background-repeat: no-repeat;
-        background-size: 2000px;
+        background-size: 2000px; */
+        background-image: none;
     }
     .donaciones {
         background-color: #019CDE;
@@ -309,7 +325,52 @@ footer {
     .esconder-grande {
         display: none;
     }
+    header {
+        background-color: $color-institucional-base;
+    }
     footer {
         height: auto;
+    }
+    .logo-fundacion img {
+        width: 329px;
+        margin-bottom: 60px;
+    }
+    .titulo-colecta {
+        font-size: 85px;
+        line-height: 100%;
+        margin-bottom: 2rem !important;
+    }
+    .sonrisa {
+        color: $color-institucional-base;
+        top: 80px;
+    }
+    .flor-sonrisa {
+        top: 50px;
+    }
+    .llave-de-sol {
+        left: -60px;
+        right: auto;
+    }
+    .abeja {
+        top: 380px;
+        width: 175px;
+    }
+    .flor-fucsia {
+        bottom: -15px;
+    }
+    main {
+        background-image: url('../img/trazado-azul.svg');
+        background-position-y: -167px; //top left;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-size: 2000px; 
+    }
+    .dona-span {
+        font-size: 1.25rem;
+    }
+}
+@media (max-width: 900px) {
+    .flor-fucsia, .abeja {
+        display: none;
     }
 }
