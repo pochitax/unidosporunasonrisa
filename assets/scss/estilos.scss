@@ -70,6 +70,7 @@ footer {
 .bajada-footer {
     font-size: 21px;
     letter-spacing: .25rem;
+    height: 27px;
 }
 .titulo-colecta {
     font-size: 96px;
@@ -307,5 +308,8 @@ footer {
     }
     .esconder-grande {
         display: none;
+    }
+    footer {
+        height: auto;
     }
 }

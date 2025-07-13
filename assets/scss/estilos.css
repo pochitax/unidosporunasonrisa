@@ -12031,6 +12031,7 @@ footer {
 .bajada-footer {
   font-size: 21px;
   letter-spacing: 0.25rem;
+  height: 27px;
 }
 
 .titulo-colecta {
@@ -12283,5 +12284,8 @@ footer {
   }
   .esconder-grande {
     display: none;
+  }
+  footer {
+    height: auto;
   }
 }/*# sourceMappingURL=estilos.css.map */
