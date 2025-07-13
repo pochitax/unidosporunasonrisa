@@ -208,6 +208,18 @@ footer {
     left: 0;
     z-index: -1;
 }
+.bg-celeste-movil{
+    background-image: url('../img/trazado-celeste-movil.svg');
+    background-size: 1250px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 .bg-rosado {
     background-image: url('../img/trazado-fucsia.svg');
     background-size: 1537px;
@@ -343,6 +355,9 @@ footer {
     .sonrisa {
         color: $color-institucional-base;
         top: 80px;
+        right: 180px;
+        width: 235px;
+        font-size: 30px;
     }
     .flor-sonrisa {
         top: 50px;
@@ -366,7 +381,7 @@ footer {
         background-size: 2000px; 
     }
     .dona-span {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
 }
 @media (max-width: 900px) {
