@@ -12270,34 +12270,12 @@ footer {
     display: none;
   }
 }
-@media (max-width: 992px) {
-  .logo-fundacion img {
-    width: 80%;
-  }
-}
 @media (max-width: 480px) {
   .social-links svg, .btn.btn-link svg {
     margin-right: 0;
   }
 }
 @media (max-width: 1200px) {
-  .titulo-colecta {
-    border-right: none;
-    padding-right: 0;
-    margin-right: 0;
-    position: relative;
-  }
-  .titulo-colecta::before {
-    content: "";
-    width: 85px;
-    height: 3px;
-    background-color: #fff;
-    position: absolute;
-    top: -30px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-  }
   .listado-fundacion {
     max-width: 1000px;
   }
@@ -12320,14 +12298,10 @@ footer {
   footer {
     height: auto;
   }
-  .logo-fundacion img {
-    width: 329px;
-    margin-bottom: 60px;
-  }
   .titulo-colecta {
     font-size: 85px;
-    line-height: 100%;
-    margin-bottom: 2rem !important;
+    /* line-height: 100%;
+    margin-bottom: 2rem !important; */
   }
   .sonrisa {
     color: #03397F;
@@ -12372,5 +12346,26 @@ footer {
   }
   .logo-fundacion img {
     width: 250px;
+  }
+  .titulo-colecta {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+    position: relative;
+  }
+  .titulo-colecta::before {
+    content: "";
+    width: 85px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .logo-fundacion img {
+    width: 329px;
+    margin-bottom: 60px;
   }
 }/*# sourceMappingURL=estilos.css.map */
