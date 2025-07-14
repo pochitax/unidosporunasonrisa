@@ -193,7 +193,7 @@ footer {
     width: 93px;
     height: 164px;
     background-image: url('../img/flor.svg');
-    bottom: 220px;
+    bottom: 0;
     right: -30px;
 }
 .bg-celeste{
@@ -234,7 +234,7 @@ footer {
     z-index: -2;
 }
 .donaciones {
-    margin-top: 4rem;
+    margin-top: 2rem;
     color: $white;
 }
 @media (min-width: 1200px) and (max-width: 1680px){
@@ -278,10 +278,14 @@ footer {
     }
     .bg-celeste {
         right: -300px;
-        bottom: -30px;
+        bottom: -100px;
     }
     .flor-fucsia {
-        bottom: 150px;
+        bottom: 0;
+        right: -50px;
+    }
+    .donaciones {
+        margin-top: 0;
     }
 }
 @media screen and (min-width: 1681px) {
