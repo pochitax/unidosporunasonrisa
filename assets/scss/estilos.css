@@ -12258,7 +12258,7 @@ footer {
     left: -250px;
   }
   .bg-celeste {
-    right: -300px;
+    right: -360px;
     bottom: -100px;
   }
   .flor-fucsia {
@@ -12367,6 +12367,10 @@ footer {
     right: 0;
     margin: 0 auto;
   }
+  /* .bg-celeste {
+      right: -400px;
+      bottom: -92px;
+  } */
 }
 @media (max-width: 900px) {
   .flor-fucsia, .abeja {
