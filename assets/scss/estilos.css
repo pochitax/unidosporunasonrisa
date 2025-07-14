@@ -12474,4 +12474,9 @@ footer {
   .list-inline-item:not(:last-child) {
     margin-right: 1.5rem;
   }
+}
+@media (max-width: 425px) {
+  .esconder-grande {
+    display: block;
+  }
 }/*# sourceMappingURL=estilos.css.map */
