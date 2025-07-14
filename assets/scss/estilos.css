@@ -12218,7 +12218,12 @@ footer {
   color: #fff;
 }
 
-@media (min-width: 1200px) and (max-width: 1680px) {
+@media screen and (min-width: 1681px) {
+  .esconder-grande {
+    display: none;
+  }
+}
+@media (min-width: 1367px) and (max-width: 1680px) {
   .dona-span {
     font-size: 16px;
   }
@@ -12269,17 +12274,87 @@ footer {
     margin-top: 0;
   }
 }
-@media screen and (min-width: 1681px) {
-  .esconder-grande {
+@media (min-width: 1201px) and (max-width: 1366.9px) {
+  .fondo-azul-superior {
+    background-image: none;
+  }
+  header {
+    background-color: #03397F;
+    padding-bottom: 10px;
+  }
+  .pt-4 {
+    padding-top: 1rem !important;
+  }
+  .titulo-colecta {
+    font-size: 85px;
+  }
+  .logo-fundacion img {
+    width: 210px;
+  }
+  .listado-fundacion {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    font-size: 16px;
+    max-width: 600px;
+    margin-bottom: 0 !important;
+  }
+  .sonrisa {
+    color: #03397F;
+    right: 130px;
+    top: 45px;
+  }
+  .bg-fucsia {
+    font-size: 21px;
+  }
+  .alvaro-josefa {
+    width: 695px;
+    margin-left: -100px !important;
+    height: 750px;
+  }
+  .alvaro-josefa img {
+    width: 100%;
+  }
+  .abeja {
     display: none;
   }
-}
-@media (max-width: 480px) {
-  .social-links svg, .btn.btn-link svg {
-    margin-right: 0;
+  .btn-donacion {
+    font-size: 25px;
+  }
+  .donaciones {
+    margin-top: 1rem;
+    padding-top: 1.25rem !important;
+  }
+  .bg-celeste {
+    bottom: -1px;
+    right: -500px;
+  }
+  .bg-rosado {
+    left: -300px;
+  }
+  .dona-span {
+    font-size: 12px;
+    margin-bottom: 0.5rem !important;
+  }
+  .pt-xl-5 {
+    padding-top: 2rem !important;
+  }
+  h4, .h4 {
+    font-size: 1rem;
+  }
+  .musica {
+    top: 100px;
+    width: 50px;
+  }
+  .llave-de-sol {
+    bottom: 65px;
+    right: -18px;
+  }
+  .josefa {
+    right: 80px;
+    top: 250px;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1200.9px) {
   .listado-fundacion {
     max-width: 1000px;
   }
@@ -12477,6 +12552,11 @@ footer {
   }
   .list-inline-item:not(:last-child) {
     margin-right: 1.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .social-links svg, .btn.btn-link svg {
+    margin-right: 0;
   }
 }
 @media (max-width: 425px) {
