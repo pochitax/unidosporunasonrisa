@@ -321,7 +321,7 @@ footer {
     }
     
     .titulo-colecta {
-        font-size: 85px;
+        font-size: 83px;
         /* line-height: 100%;
         margin-bottom: 2rem !important; */
     }
@@ -362,18 +362,17 @@ footer {
         right: 0;
     }
 }
-@media (max-width: 900px) {
-    .flor-fucsia, .abeja {
-        display: none;
-    }
+@media (max-width: 992px) {
     .logo-fundacion img {
         width: 250px;
+        margin-bottom: 60px;
     }
     .titulo-colecta {
         border-right: none;
         padding-right: 0;
         margin-right: 0;
         position: relative;
+        margin-bottom: 20px !important;
         &::before {
             content: '';
             width: 85px;
@@ -386,8 +385,111 @@ footer {
             margin: 0 auto;
         }
     }
+}
+@media (max-width: 900px) {
+    .flor-fucsia, .abeja {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .alvaro-josefa {
+        width: 600px;
+        height: 670px;
+        img {
+            width: 100%;
+        }
+    }
+    .sonrisa {
+        top: 45px;
+        right: 65px;
+        width: 220px;
+        font-size: 26px;
+    }
+    .josefa {
+        left: 200px;
+        top: 285px;
+        color: $white;
+        right: auto;
+    }
+    .titulo-colecta {
+        font-size: 65px;
+        line-height: 100%;
+        &::before {
+            content: '';
+            top: -15px;
+        }
+    }
     .logo-fundacion img {
-        width: 329px;
-        margin-bottom: 60px;
+        width: 200px;
+        margin-bottom: 40px;
+    }
+    .musica {
+        width: 50px;
+    }
+    .flor-sonrisa {
+        top: 10px;
+    }
+}
+@media (max-width: 576px) {
+    .titulo-colecta {
+        font-size: 30px;
+        &::before {
+            top: -21px;
+        }
+    }
+    .alvaro-josefa {
+        width: 395px;
+        height: 445px;
+        img {
+            margin-left: -30px;
+        }
+    }
+    .flor-sonrisa, .musica {
+        display: none;
+    }
+    .sonrisa {
+        top: 45px;
+        right: 65px;
+        width: 170px;
+        font-size: 18px;
+        &::before {
+            width: 145px;
+            bottom: -30px;
+        }
+    }
+    .josefa {
+        left: 40px;
+        top: 200px;
+    }
+    .llave-de-sol {
+        right: -15px;
+        left: auto;
+    }
+    .dona-span {
+        font-size: 1rem;
+    }
+    .btn-donacion {
+        font-size: 25px;
+    }
+    h4, .h4, h3, .h3 {
+        font-size: 1.25rem;
+    }
+    .listado-fundacion {
+        font-size: 16px;
+        padding: 2rem !important;
+        margin-bottom: 0 !important;
+        li {
+            padding-left: 30px;
+            &::before {
+                width: 12px;
+                height: 12px;
+            }
+        }
+    }
+    .bajada-footer {
+        font-size: 16px;
+    }
+    .list-inline-item:not(:last-child) {
+        margin-right: 1.5rem;
     }
 }
