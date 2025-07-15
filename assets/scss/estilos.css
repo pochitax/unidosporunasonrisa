@@ -12307,9 +12307,9 @@ footer {
     font-size: 21px;
   }
   .alvaro-josefa {
-    width: 695px;
-    margin-left: -100px !important;
-    height: 750px;
+    width: 650px;
+    margin-left: -50px !important;
+    height: 700px;
   }
   .alvaro-josefa img {
     width: 100%;
@@ -12325,8 +12325,8 @@ footer {
     padding-top: 1.25rem !important;
   }
   .bg-celeste {
-    bottom: -10px;
-    right: -600px;
+    bottom: -65px;
+    right: -615px;
     background-size: 1490px;
   }
   .bg-rosado {
@@ -12351,8 +12351,9 @@ footer {
     right: -18px;
   }
   .josefa {
-    right: 80px;
-    top: 250px;
+    right: 75px;
+    top: 220px;
+    font-size: 16px;
   }
 }
 @media (max-width: 1199.9px) {
