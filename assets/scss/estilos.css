@@ -12051,7 +12051,7 @@ footer {
 
 .listado-fundacion {
   padding: 0;
-  max-width: 750px;
+  max-width: 720px;
 }
 .listado-fundacion li {
   list-style-type: none;
@@ -12066,7 +12066,7 @@ footer {
   height: 20px;
   width: 20px;
   left: 0;
-  top: 10px;
+  top: 5px;
   background-size: contain;
 }
 
@@ -12297,6 +12297,14 @@ footer {
     font-size: 15px;
     max-width: 600px;
     margin-bottom: 0 !important;
+  }
+  .listado-fundacion li {
+    padding-left: 35px;
+  }
+  .listado-fundacion li::before {
+    width: 15px;
+    height: 15px;
+    top: 3px;
   }
   .sonrisa {
     color: #03397F;
