@@ -12274,7 +12274,7 @@ footer {
     margin-top: 0;
   }
 }
-@media (min-width: 1201px) and (max-width: 1366.9px) {
+@media (min-width: 1200px) and (max-width: 1366.9px) {
   .fondo-azul-superior {
     background-image: none;
   }
@@ -12355,7 +12355,7 @@ footer {
     top: 250px;
   }
 }
-@media (max-width: 1200.9px) {
+@media (max-width: 1199.9px) {
   .listado-fundacion {
     max-width: 1000px;
   }
