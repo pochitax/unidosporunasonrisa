@@ -73,7 +73,7 @@ footer {
     height: 27px;
 }
 .titulo-colecta {
-    font-size: 96px;
+    font-size: 70px; //96px;
     line-height: 85px;
     border-right: 3px solid $white;
     padding-right: 2rem;
@@ -310,7 +310,7 @@ footer {
         padding-top: 1rem !important;
     }
     .titulo-colecta {
-        font-size: 85px;
+        font-size: 55px; //85px;
     }
     .logo-fundacion img {
         width: 210px;
@@ -419,7 +419,7 @@ footer {
     }
     
     .titulo-colecta {
-        font-size: 83px;
+        font-size: 45px; //83px;
         /* line-height: 100%;
         margin-bottom: 2rem !important; */
     }
@@ -518,7 +518,7 @@ footer {
         right: auto;
     }
     .titulo-colecta {
-        font-size: 65px;
+        font-size: 45px;
         line-height: 100%;
         &::before {
             content: '';
