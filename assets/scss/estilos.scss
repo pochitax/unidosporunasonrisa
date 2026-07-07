@@ -69,8 +69,12 @@ footer {
 }
 .bajada-footer {
     font-size: 21px;
-    letter-spacing: .25rem;
+    letter-spacing: .1rem;
     height: 27px;
+    text-align: right;
+}
+.menu-rrss-footer {
+    min-width: 330px;
 }
 .titulo-colecta {
     font-size: 70px; //96px;
@@ -359,7 +363,7 @@ footer {
     .bg-celeste {
         bottom: -65px;
         right: -615px;
-        background-size: 1490px;
+        background-size: 1590px;
     }
     .bg-rosado {
         left: -300px;
@@ -391,7 +395,7 @@ footer {
         font-size: 16px;
     }
     .bajada-footer {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 @media (max-width: 1199.9px) {
@@ -458,6 +462,9 @@ footer {
         background-size: 1200px;
         background-position-x: center;
         right: 0;
+    }
+    .bajada-footer {
+        text-align: center;
     }
 }
 
